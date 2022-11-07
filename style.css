@@ -1,0 +1,42 @@
+* {
+   font-family: Arial;
+   color: #171717;
+   background-color: #fafafa;
+}
+
+h1 {
+   color: #8685ef;
+}
+
+.content {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 2em;
+}
+
+.my-table,
+.my-image {
+   display: flex;
+   justify-content: center;
+}
+
+table {
+   border-collapse: collapse;
+   width: 100%;
+}
+
+th,
+td {
+   border: 1px solid #d6d3d1;
+   padding: 14px;
+   border-collapse: collapse;
+}
+
+th {
+   background-color: #d6d3d1;
+}
+
+.my-image {
+   margin-top: 40px;
+}
